@@ -1,0 +1,88 @@
+.background{
+    background-image: url("resources/background-photo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: beige;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100%;
+}
+.container{ 
+    width: 1080px;
+    background-color: white;
+    box-shadow: 0 0 10px black;
+    margin-top:50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.left-side-border{
+    border-top: 5px solid #10375D;
+    border-right: 5px solid #10375D;
+    border-bottom: 5px solid #10375D;
+    padding:10px;
+    padding-left: 30px;
+    margin-top: 20px;
+    width: 35%;
+}
+.profile-picture{
+    width: 250px;
+    height: 250px;
+    border-radius: 10%;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.profile-picture:hover{
+    transform: scale(1.1); /* Powiększ obrazek o 10% podczas najechania */
+    transition: transform 0.3s ease; /* Dodaj płynność do animacji */
+}
+.name-surname{
+    font-size: 50px;
+    color: #10375D;
+}
+.title{
+    color:#05647A;
+    font-size: 13px
+}
+.title h2{
+    font-size: 20px;
+}
+.information{
+    margin-top: 20px;
+}
+.information h2{
+    color:#10375D
+}
+.information h3{
+    font-size:14px;
+    color:#05647A;
+}
+
+.right-side-border{
+    margin: 30px;
+    width: 55%;
+    
+}
+.background-title{
+    color: #05647A;
+    background-color: #CDD5DA;
+    padding: 10px;
+}
+.contact{
+    list-style: none;
+    display:flex;
+}
+.icon{
+    padding: 10px;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.icon:hover{
+    transform: scale(1.1); /* Powiększ obrazek o 10% podczas najechania */
+    transition: transform 0.3s ease; /* Dodaj płynność do animacji */
+    box-shadow: 0 0 5px #05647A;
+}
+

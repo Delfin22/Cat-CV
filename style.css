@@ -1,0 +1,26 @@
+body{
+    /*font settings*/
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+hr{ /*line*/
+    color: #10375D;
+    background-color: #10375D;
+    height: 3px;
+}
+address{
+    display: flex;
+    margin-left: auto;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+address h3{
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+
+
