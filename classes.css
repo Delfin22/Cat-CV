@@ -17,10 +17,10 @@
     display: flex;
     flex-wrap: wrap;
 }
-.left-side-border{
-    border-top: 5px solid #10375D;
-    border-right: 5px solid #10375D;
-    border-bottom: 5px solid #10375D;
+.left-side-wrapper{
+    border-top: 5px solid var(--dark-blue-cv);
+    border-right: 5px solid var(--dark-blue-cv);
+    border-bottom: 5px solid var(--dark-blue-cv);
     padding:10px;
     padding-left: 30px;
     margin-top: 20px;
@@ -34,12 +34,12 @@
     margin-top: 20px;
 }
 .profile-picture:hover{
-    transform: scale(1.1); /* Powiększ obrazek o 10% podczas najechania */
-    transition: transform 0.3s ease; /* Dodaj płynność do animacji */
+    transform: scale(1.1); 
+    transition: transform 0.2s ease; 
 }
 .name-surname{
     font-size: 50px;
-    color: #10375D;
+    color: var(--dark-blue-cv);
 }
 .title{
     color:#05647A;
@@ -52,22 +52,32 @@
     margin-top: 20px;
 }
 .information h2{
-    color:#10375D
+    color:var(--dark-blue-cv);
 }
-.information h3{
-    font-size:14px;
-    color:#05647A;
+.information-element{
+    font-size:18px;
+    color:var(--light-blue-cv);
 }
-
-.right-side-border{
+.right-side-wrapper{
     margin: 30px;
     width: 55%;
-    
 }
 .background-title{
-    color: #05647A;
-    background-color: #CDD5DA;
+    color: var(--light-blue-cv);
+    background-color: white;
     padding: 10px;
+}
+.bottom-wrapper{
+    display: flex;
+    margin-left: auto;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+.RODO-text{
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 200;
 }
 .contact{
     list-style: none;
@@ -81,8 +91,8 @@
     border-radius: 50%;
 }
 .icon:hover{
-    transform: scale(1.1); /* Powiększ obrazek o 10% podczas najechania */
-    transition: transform 0.3s ease; /* Dodaj płynność do animacji */
-    box-shadow: 0 0 5px #05647A;
+    transform: scale(1.1);
+    transition: transform 0.1s ease;
+    box-shadow: 0 0 5px var(--light-blue-cv);
 }
 
